@@ -1,0 +1,135 @@
+*{
+    font-family: "Playfair Display", serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --x:rgb(38, 174, 95);
+}
+#logo{
+    width: 100%;
+    height: 70px;
+    margin-left: 70px;
+    border-radius: 100%;
+}
+
+ul li{
+    color:white;
+    font-size: 20px;
+    
+}
+li i{
+    color: rgb(254, 254, 254);
+}
+#buttn{
+    background-color:var(--x);
+    color:white;
+    
+    
+}
+
+#buttn:hover{
+    background-color:white;
+    color: var(--x);
+    border-color: var(--x);
+    
+}
+@media(max-width:992px){
+    #icon{
+        display: none;
+    }
+}
+#main{
+    background-image: url(./images/wallpaper-the-sky-mountains-night-camping-the-light-lamp-camping-the-ai-generated-free-photo.jpg);
+    height: 100vh;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#welcome{
+    padding-top:22%;
+    padding-left: 5%;
+}
+#welcome h4{
+    color: white;
+    font-size: 30px;
+
+}
+#welcome h1{
+    color: white;
+    font-size: 70px;
+    
+}
+@media(max-width:600px){
+#main{
+    background-position: bottom;
+}
+#welcome h4{
+    font-size: 20px;
+}
+#welcome h1{
+    font-size: 50px;
+}
+}
+#bl{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.155);
+}
+#our_work{
+    background-color: rgba(49, 157, 94, 0.916);
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    div .bookbtn{
+        border-color: var(--x);
+        color: var(--x);
+    }
+    div .bookbtn:hover{
+        background-color: var(--x);
+        color: white;
+    }
+   
+    #nav{
+        
+        background-image: url(./images/wallpaper-the-sky-mountains-night-camping-the-light-lamp-camping-the-ai-generated-free-photo.jpg);
+        
+    }
+#gallery{
+    background-color: rgb(22, 218, 152);
+    color: white;
+}
+    
+
+
+.firstdiv2{
+    width: 55%;
+    height: 12%;
+    background-color: rgba(0, 0, 0, 0.786);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position:absolute;
+    bottom: 0px;
+    padding: 8%;
+
+}
+.firstdiv3{
+    width: 55%;
+    height: 12%;
+    background-color: rgba(0, 0, 0, 0.786);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding:5%;
+    position:absolute;
+    bottom: 0px;
+
+}
+    
+    
